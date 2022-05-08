@@ -1,0 +1,200 @@
+.topnav {
+  overflow: hidden;
+  background-color: #E8E8E8;
+  text-align: center;
+  list-style: none;
+}
+.topnav a {
+  float: left;
+  color: #1b1b1c;
+  padding: 15px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 60px;
+  font-weight: bold;
+}
+li a:hover {
+  background-color: rgb(65, 114, 199);
+}    
+.logo{
+
+  position:absolute;
+  padding: 0px;
+  background: transparent;
+  overflow: hidden;
+} 
+.header{
+  background-color: rgb(65, 114, 199);
+  padding:0.5%;
+  font-size:40px;
+  line-height:20px;
+  margin:0 30px;
+  color:#ffffff;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.button{
+  float: right;
+  margin-top: 170px;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+.Light-mode {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+.text_para {
+  width: 500px;
+  font-size:30px;
+  white-space: pre;
+} 
+body{
+  background-color: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+}
+.shape{
+  color: rgb(65, 114, 199);
+  font-size: 70px;
+}
+.add{
+  float: right;
+  width: 350px;
+  height: 700px;
+  margin-right: 50px;
+}
+.add:hover{
+ box-shadow: 0 0 15px #ccc;
+}
+
+.add2{
+
+  margin-left: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 900px;
+}
+.add2:hover{
+  box-shadow: 0 0 15px #ccc;
+ }
+ 
+.add3{
+  float: right;
+  width: 400px;
+  height: 700px;
+  margin-right: 70px;
+}
+.add3:hover{
+  opacity: 0.6;
+ }
+ 
+.table{
+ 
+  float: left;
+  margin-left: 500px;
+  border-color: rgb(65, 114, 199);
+  
+}
+.parent{
+    display: flex;
+}
+
+.img{
+  border:dashed 4px ;
+  width:50%; 
+  height:500px;
+  margin-left: 90px;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+.pop{
+  font-weight: bold;
+  font-size:25px;
+  margin-left: 100px;
+} 
+.name{
+  margin-top: 100px;
+  margin-left: 10px;
+} 
+.video{
+
+  margin-left: 100px;
+  width :700px;
+  height : 400px;
+  border: 9px outset rgb(65, 114, 199);
+  padding: 6px;
+  
+}
+.list{
+
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 450px;
+  float: left;
+}
+.yellow{
+  border-radius: 10px;
+  background-color: yellow;
+  padding: 10px;
+}
+.text{
+  margin-left: 90px;
+  font-size: 25px;
+  text-decoration: underline overline;
+}
+.footer {
+  background-color: #1a1a1a;
+  padding:10px;
+  text-align: center;
+  width: 100%;
+}
+.fa {
+  padding: 15px;
+  font-size: 15px;
+  width:15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:20%;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: red;
+  color: white;
+}
+.fa-youtube {
+  background: red;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-copyright {
+  color:white;
+}
+.fa-heart {
+  color:red;
+}
+p.h{
+  color: white;
+}
+div.f{
+  background-color: #000;
+}

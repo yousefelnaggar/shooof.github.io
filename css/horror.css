@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', 'sans-serif';
+}
+/*.h-movie3{
+  display: none;
+}*/
+.h-button{
+  margin-top: 300px;
+  display: inline-block;
+  margin-right: 80px;
+  margin-left: -500px;
+}
+#ff{
+  display: none;
+}
+
+.h-all{
+  background-color: rgb(45, 42, 42);
+    padding: 0px 10px 0px 10px;
+    color: rgb(245, 243, 243);
+    text-align: center;
+}
+div .h-trailer{
+    border: 2px solid #3a6cf4;
+    border-radius: 12px;
+    padding: 5px;
+    letter-spacing: 1.5px;  
+    line-height: 1.6;
+}
+div .h-casts1{
+    border: 2px solid #3a6cf4;
+    border-radius: 12px;
+    padding: 5px;
+    letter-spacing: 1.5px;  
+    line-height: 1.6;
+}
+.fram{
+    display: flex;
+  }
+  .fram .h-line{
+    width: 400px;
+    height: 300px;
+    margin-left: 300px;
+    display: inline-flex;
+    margin-top: 15px;
+   margin: 100px;
+  }
+   div .fram .h-fram{
+       border: 2px solid #3a6cf4;
+        border-radius: 12px;
+        padding: 8px;
+        letter-spacing: 1.5px;  
+        line-height: 1.6;
+        text-align: center;
+         max-width: 450px;
+         margin: 10px;
+  }
+  div .h-movie1 .h-t1 td, div .h-movie1 .h-t1 th ,div .h-movie1 .h-t1 
+  ,div .h-casts .h-t1 ,div .h-movie1 .h-t1 ,div .h-casts .h-t1 td
+{
+    border-bottom: 1px solid rgb(152, 151, 151);
+    text-align: right;
+}
+div .h-movie1 .h-t1 {
+    border-collapse: collapse;
+    width: 450px;
+}
+div .h-movie1 .t1 td, div .movie1 .t1 th  {
+    padding: 15px;
+}
+.head2 h1:hover {
+    background-color: rgba(0, 0, 0, 0.226);
+}
+.head3 h1:hover {
+    background-color: rgba(0, 0, 0, 0.226);
+}
+.footer {
+  background-color: #1a1a1a;
+  padding:10px;
+  text-align: center;
+  width: 100%;
+}
+.fa {
+  padding: 15px;
+  font-size: 15px;
+  width:15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:20%;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: red;
+  color: white;
+}
+.fa-youtube {
+  background: red;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-copyright {
+  color:white;
+}
+.fa-heart {
+  color:red;
+}
+p.h{
+  color: white;
+}
+div.f{
+  background-color: #000;
+}
+/*.h-button{
+  margin-top: 300px;
+ margin-left: 300px;
+}
+
+
+

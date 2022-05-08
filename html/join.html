@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/login_join_main.css">
+  <title>join</title>
+</head>
+<body>
+  <div class="join-container">
+    <div class="join-form">
+      <form>
+        <h2>create account</h2>
+        <!-- <p>It's quick and easy</p> -->
+        <div class="form-input-join">
+          <input type="text" required placeholder="user name" minlength="4" maxlength="20" autofocus> <br>
+          <input type="text" placeholder="phone number" required><br>
+          <input type="email" placeholder="email address" required> <br>
+          <input type="password" required  minlength="8" maxlength="12" placeholder="password"><br>
+          <input type="password" required  minlength="8" maxlength="12" placeholder="password confirmation">
+          <div class="gender">
+            <input type="radio" name="gender">
+            <label for="">male</label>
+            <input type="radio" name="gender">
+            <label for="">female</label>
+          </div>
+          <button type="submit" id="submit-btn" onclick="main_page()">submit</button>
+        </div>
+      </form>
+    </div>
+    <script src="../js/login&join.js"></script>
+</body>
+</html>

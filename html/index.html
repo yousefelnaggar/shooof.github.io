@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/login_join_main.css">
+  <title>shoof-login</title>
+</head>
+<body>
+  <header class="shoof-header-login">
+    <a href="shoof.html">
+      <img src="../media/login&join/logo.png" alt="logo">
+    </a>
+    <!-- <nav class="shoof-nav">
+      <a href="#main">Continue as guest</a>
+      <a href="login.html">sign in</a>
+    </nav> -->
+  </header>
+  <section class="login-container">
+    <div class="content">
+      <div class="text-1">
+        <h2>Ready to watch ?</h2>
+        <p>stream from one or more devices, anytime from anywhere</p>
+      </div>
+      <div class="icons">
+        <img src="../media/login&join/android.png" >
+        <img src="../media/login&join/appleTV.png" >
+        <img src="../media/login&join/smartTV.png" >
+        <img src="../media/login&join/chromecast.png" >
+      </div>
+      <div class="text-2">
+        <p>join and enjoy</p>
+        <img src="../media/login&join/popcorn.png" >
+      </div>
+      <div class="join-btn">
+        <a id="join" onclick="join_page()">join now</a>
+      </div>
+    </div>
+    <div class="signin-container">
+      <form class="signin-form">
+        <h2>login</h2>
+        <div class="form-input-singin">
+          <input type="text" placeholder="user name"  required><br>
+          <input type="password" placeholder="password" required>
+          <button class="login-btn" onclick="main_page()">login</button>
+        </div>
+        <div class="form-text-signin">
+          <!-- <p>create account</p> -->
+          <p>forget password?</p> 
+        </div>
+      </form>
+    </div>
+  </section>
+  <script src="../js/login&join.js"></script>
+</body>
+</html>
