@@ -46,7 +46,7 @@ function anemy_page(){
   window.location.href="anemy.html";
 }
 function avengers_page(){
-  window.location.href="avengers.html";
+  window.location.href="Avengers.html";
 }
 function SciFi_page(){
   window.location.href="SciFi.html";
