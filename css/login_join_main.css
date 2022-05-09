@@ -325,10 +325,12 @@
 .movie-card img{
   width: 200px;
   height: 250px;
+  margin-bottom: 7px;
 }
 .movie-card p{
   color: #3a6cf4;
-  font-size: 30px;
+  font-size: 20px;
+  text-transform: uppercase;
 }
 .movie-card:hover{
   transform: scale(1.1);

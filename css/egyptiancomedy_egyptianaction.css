@@ -1,7 +1,7 @@
 /* action_page */
 body.ya {
   text-align: center;
-  background-image:URL("../media3/action film/login-background.jpg");
+  background-image:URL("../media5/login-background.jpg");
 }
 li:hover.ya{
 background: #ecf0f0;
@@ -181,7 +181,7 @@ li a.el{
 
 body.el {
   text-align: center;
-  background-image:URL("../media3/action film/login-background.jpg");
+  background-image:URL("../media6/login-background.jpg");
 }
 
 table.el {
