@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.mainAvengers{
+      padding: 10px;
+      background-color: #1f1f1f;
+      margin: 0px;
+
+}
+.mv{
+    align-items:center;
+    background-color: rgba(0, 0, 0, 0.295);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    border: 20px;
+    margin: 5px;
+    padding: 5px;
+}
+.mv img{
+    text-align:right;
+    align-items: right;
+    height: 350px;
+    margin: 10px;
+}
+.mvName{
+  color: rgb(52, 172, 116);
+  border: 2px; 
+  margin: 20px;
+  padding: 20px;
+  
+}
+.mvName2{
+  color: rgb(76, 84, 197);
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+  width: 98%;
+}
+.summ{
+  margin: 20px;
+  padding: 20px;
+}
+.table{
+    border-color: rgb(255, 255, 255)
+}
+.vidAvengers{
+    height: 350px;
+}
+.hmedia{
+    display: flex;
+    flex-direction: row;
+}
+/*img{
+    width: 300px;
+    float: right;
+    text-align: right;
+}*/
+.dark-mode {
+    background-color: rgb(43, 43, 43);
+    color: rgb(76, 84, 197);
+  }
+.go-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.295);
+    width: 50px;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition-2);
+    z-index: 2;
+}
+  
+.go-top.active {
+    opacity: 1;
+    visibility: visible;
+}
+.title{
+      text-align: center;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color: white;
+      margin: 8px;
+}
+
+  .tv-series {
+    background: url("../images/tv-series-bg.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-block: var(--section-padding);
+  }
+  
+.tv-series .section-title { margin-bottom: 50px; }
+.container { padding-inline: 15px; }
+
+  .h1,
+  .h2,
+  .h3 {
+    color: var(--white);
+    line-height: 1.2;
+  }
+  
+.h1 { font-size: var(--fs-1); }
+  
+.h2 { font-size: var(--fs-2); }
+  
+.h3 { font-size: var(--fs-6); }  
+
+.section-subtitle {
+    color: var(--citrine);
+    font-size: var(--fs-11);
+    font-weight: var(--fw-500);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .section-title { text-align: center; }
