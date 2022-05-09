@@ -37,5 +37,17 @@ function documentary_page(){
   window.location.href="documentaries.html";
 }
 function shortmovies_page(){
-  window.location.href="short movies.html";
+  window.location.href="shortmovies.html";
+}
+function horror_page(){
+  window.location.href="horror.html";
+}
+function anemy_page(){
+  window.location.href="anemy.html";
+}
+function avengers_page(){
+  window.location.href="avengers.html";
+}
+function SciFi_page(){
+  window.location.href="SciFi.html";
 }
