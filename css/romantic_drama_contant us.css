@@ -439,6 +439,56 @@ div.f{
 
 }
 
+/* nav */
+.shoof-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+
+}
+.main-left-sec img{
+  width: 90px;
+}
+.shoof-header .main-mid-sec input{
+  height: 20px;
+  padding: 5px;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #3a6cf4;
+  border-radius: 10px;
+  background: none;
+  color:white ;
+  width: 300px;
+  height: 30px;
+  /* cursor: pointer; */
+}
+.shoof-header .main-mid-sec button{
+  border: 0;
+  background-color: rgb(0,0, 0,0.1);
+  border-radius: 15px;
+  cursor: pointer;
+  color: #3a6cf4;
+  font-size: 20px;
+}
+
+.shoof-header .main-right-sec{
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  color:#3a6cf4 ;
+  cursor: pointer;
+}
+.shoof-header .main-right-sec i{
+  font-size: 25px;
+}
+.shoof-header .main-right-sec span{
+  margin-right: 4px;
+  font-size: 30px;
+}
+
+
 
 
 
