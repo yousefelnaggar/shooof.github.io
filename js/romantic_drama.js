@@ -1,6 +1,6 @@
 
 
-window.alert("welcome to our website ,click ok to continue"); const ratingStars = [...document.getElementsByClassName("rating__star")];
+window.alert("welcome to our website ,click ok to continue"); 
 
 
 
@@ -23,7 +23,7 @@ function showClickTime(){
   if (seconds<=9)
    seconds="0"+seconds
    var clocktime=hours+":"+minutes+":"+seconds+" "+clockd
-   clockSpan.innerHTML="<b style='font-size:40;color:white;'>"+clocktime+"</b>"
+   clockSpan.innerHTML="<b style='font-size:20;color:white;'>"+clocktime+"</b>"
    setTimeout("showClickTime()",1000)
 }
 window.onload=showClickTime;
