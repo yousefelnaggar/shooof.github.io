@@ -1,0 +1,420 @@
+/* action_page */
+body.ya {
+  text-align: center;
+  background-image:URL("../media5/login-background.jpg");
+}
+li:hover.ya{
+background: #ecf0f0;
+background-color: #555555;
+}
+
+h1.ya,h2.ya,h3.ya{
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+  background-color: black;
+}
+
+p.ya{
+  text-indent: 55px;
+  background-color:white;
+  letter-spacing: 3px;
+  color: black;
+  font-family: font,sans-serif;
+}
+table.ya {
+background-color: white;
+border-style: outset;
+width: 75%;
+height: auto;
+}
+
+th.ya,td.ya{
+  background-color: white;
+padding: 5px;
+text-align: right;
+border: 1px solid red;
+width: 75%;
+margin:auto;
+background-color:white;
+}
+ul.ya {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  float:right;
+  height: 250px;
+  width: 250px;
+}
+
+li a.ya{
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+td:hover.ya{background-color: royalblue;}
+/* Change the link color on hover */
+
+.mycell,#c1  {
+  margin: auto;
+  background-color:white;
+  width:45%;
+}
+.tabimg {
+  border-color: #333;
+  border-radius:50px;
+  width:30%;
+}
+.mycell {
+  padding:8px;
+  text-align:center;
+  font-size:25px;
+}
+#more {display: none;}
+.footer {
+  background-color: #1a1a1a;
+  padding:10px;
+  text-align: center;
+  width: 100%;
+}
+.fa {
+  padding: 15px;
+  font-size: 15px;
+  width:15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:20%;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: red;
+  color: white;
+}
+.fa-youtube {
+  background: red;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-copyright {
+  color:white;
+}
+.fa-heart {
+  color:red;
+}
+p.h{
+  color: white;
+}
+div.f{
+  background-color: #000;
+}
+button.el{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button.barcelona {
+  border-color: #2196F3;
+color: dodgerblue
+}
+
+.checked {
+  color:orange;
+}
+.barcelona:hover {
+  background: #2196F3;
+  color: white;
+}
+
+/* css of comedy*/
+ul.el{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  float:right;
+  height: 250px;
+  width: 300px;
+}
+li a:hover.el{
+background: #ecf0f0;
+  background-color: #555555;
+}
+li a:hover.el{
+  background-color: #555;
+  color: white;
+}
+
+li a.el{
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+
+body.el {
+  text-align: center;
+  background-image:URL("../media6/login-background.jpg");
+}
+
+table.el {
+    background-color: white;
+  border-style: outset;
+  text-align: center;
+  width: 75% ;
+}
+
+th.el,td.el {
+    background-color: white;
+  padding: 8px;
+  text-align: right;
+  border: 1px solid red ;
+  
+  
+}
+
+h1.el,h2.el,h3.el {
+  text-align: center;
+  text-transform: uppercase;
+  color: red;
+  background-color: black;
+}
+
+p.el {
+  text-indent: 50px;
+  background-color:white;
+  letter-spacing: 3px;
+  color: black;
+  font-family: font,sans-serif;
+}
+h2.el{
+  text-align: center;
+color: red;
+  border: 1px solid #e8e8e8 ;
+}
+pre.mekky{
+  border: 3px solid #e8e8e8;
+  text-transform: uppercase;
+  padding: 8px;
+
+}
+div.mekky2{
+  background-color: white;
+  border-style: outset;
+  text-align: center;
+  width: 85%;
+  padding: 8px;
+  border: 8px;
+  text-align: center;
+}
+div.logo{
+  float: right;
+  width: 300px;
+  height: 200px;
+  background: red;
+  position: relative;
+  animation: mymove 5s infinite;
+  animation-direction: alternate;
+  
+}
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+  from {left: 0px;}
+  to {left: 45px;}
+  from{top:0px;}
+  to{top: 45px;}
+}
+div.logo2{
+float: right;
+width: auto;
+height: auto;
+background-color: black;
+position: relative;
+animation: alternate;
+animation: mymove2 5s infinite;
+}
+@keyframes mymove2 {
+ from {background-color: black;}
+ to{background-color: blueviolet;}
+ from{right: 0px;}
+ to{right: 40px;}
+ from{top: 0px;}
+ to{top: 40px;}
+}
+.footer {
+  background-color: #1a1a1a;
+  padding:10px;
+  text-align: center;
+  width: 100%;
+}
+.fa {
+  padding: 15px;
+  font-size: 15px;
+  width:15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:20%;
+
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: red;
+  color: white;
+}
+.fa-youtube {
+  background: red;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-copyright {
+  color:white;
+}
+.fa-heart {
+  color:red;
+}
+p.h{
+  color: white;
+}
+div.f{
+  background-color: #000;
+}
+button.el{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button.el {
+  color: red;
+}
+
+.checked {
+  color: orange;
+}
+th:hover.el {background-color: royalblue;}
+td:hover.el {background-color: royalblue;}
+
+/* header */
+.shoof-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+
+}
+.shoof-header .main-mid-sec input{
+  height: 20px;
+  padding: 5px;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #3a6cf4;
+  border-radius: 10px;
+  background: none;
+  color:white ;
+}
+.shoof-header .main-mid-sec button{
+  border: 0;
+  background-color: rgb(0,0, 0,0.1);
+  border-radius: 15px;
+  cursor: pointer;
+  color: #3a6cf4;
+}
+
+/* nav */
+.shoof-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+
+}
+.main-left-sec img{
+  width: 90px;
+}
+.shoof-header .main-mid-sec input{
+  height: 20px;
+  padding: 5px;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #3a6cf4;
+  border-radius: 10px;
+  background: none;
+  color:white ;
+  width: 300px;
+  height: 30px;
+  /* cursor: pointer; */
+}
+.shoof-header .main-mid-sec button{
+  border: 0;
+  background-color: rgb(0,0, 0,0.1);
+  border-radius: 15px;
+  cursor: pointer;
+  color: #3a6cf4;
+  font-size: 20px;
+}
+
+.shoof-header .main-right-sec{
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  color:#3a6cf4 ;
+  cursor: pointer;
+}
+.shoof-header .main-right-sec i{
+  font-size: 25px;
+}
+.shoof-header .main-right-sec span{
+  margin-right: 4px;
+  font-size: 30px;
+}

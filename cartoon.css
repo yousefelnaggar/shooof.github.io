@@ -1,0 +1,230 @@
+.T1{ 
+       
+  border: 5px solid #3a6cf4;
+ width: 240px;
+ height: 140px;
+ background-color:rgba(248, 246, 244, 0.904);
+}
+caption.cap{
+  font-size:30px;
+  color:#3a6cf4 ;
+}
+div.P{
+  display:  inline-block;
+ margin :70px ;
+}
+body{
+  
+      background-image: url("../media2/cartoon/login-background.jpg");
+      background-attachment: fixed;
+      background-size: cover;
+  }
+
+
+.cartoon-audio{
+  width: 220px;
+}
+/* I{
+  width: 450px;
+  height: 400px;
+ 
+} */
+.d{
+  
+padding: 0px;
+}
+.o{
+  font-size: 50;
+  text-indent: 40; 
+  color:rgb(13, 14, 80); 
+  margin-left: 50px;
+}
+ul {
+  font-size:25;
+  color:#3a6cf4 ;
+
+}
+
+
+
+/* aside.g{
+  width: 400px;
+  height: 700px;
+  float:right;
+  background-color:rgba(248, 246, 244, 0.904) ;
+   border: 5px solid #3a6cf4 ;
+  display: flex ;
+  margin: 15px; ;
+} */
+.v{
+  margin: 0;
+}
+aside.es{
+  width: 750px;
+  height: 430px;
+  float:right;
+  background-color:#94acec ;
+   border:15px solid #3a6cf4 ;
+   margin: 100px;
+   margin-top: 50px;
+  
+}
+aside.ar
+{
+  width: 140px;
+  height:650px;
+  float:right;
+  background-color:#94acec ;
+   border:5px solid #0b0b0c ;
+  
+  margin: 5px; ;
+}
+.watch{
+  font-size:30px;
+  color: #3a6cf4;
+ text-align: center;
+ width: 100px;
+
+}
+
+
+.cc{
+  display:block;
+  float:left;
+border:15px solid black;
+}
+.center{
+  text-align: center;
+
+}
+.ul:hover{
+  margin: auto;
+  color: #94acec;
+}
+.cccc{
+  float: right;
+  margin-bottom: 50px;
+}
+.cccc2{
+  float: left;
+  margin: 10px;
+}
+.fsize{
+  font-size: 90px;
+  color: #3a6cf4;
+  margin-left: 50px ;
+margin-top: 50px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.footer {
+
+  padding:10px;
+  text-align: center;
+  width: 100%;
+  height: 30%;
+
+}
+.fa {
+  padding: 15px;
+  font-size: 15px;
+  width:15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:20%;
+}
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: red;
+  color: white;
+}
+.fa-youtube {
+  background: red;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-copyright {
+  color:white;
+}
+.fa-heart {
+  color:red;
+}
+p.h{
+  color: white;
+}
+div.f{
+  background-color: #000;
+}
+a:link{
+  text-decoration: underline;
+  text-align: center;
+ 
+
+}
+
+/* nav */
+.shoof-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+
+}
+.main-left-sec img{
+  width: 90px;
+}
+.shoof-header .main-mid-sec input{
+  height: 20px;
+  padding: 5px;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #3a6cf4;
+  border-radius: 10px;
+  background: none;
+  color:white ;
+  width: 300px;
+  height: 30px;
+  /* cursor: pointer; */
+}
+.shoof-header .main-mid-sec button{
+  border: 0;
+  background-color: rgb(0,0, 0,0.1);
+  border-radius: 15px;
+  cursor: pointer;
+  color: #3a6cf4;
+  font-size: 20px;
+}
+
+.shoof-header .main-right-sec{
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  color:#3a6cf4 ;
+  cursor: pointer;
+}
+.shoof-header .main-right-sec i{
+  font-size: 25px;
+}
+.shoof-header .main-right-sec span{
+  margin-right: 4px;
+  font-size: 30px;
+}
