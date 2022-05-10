@@ -9,34 +9,7 @@ background-color: #1f1f1f;
   padding: 10px;
   background-color: #1f1f1f;
 }
-/* The sidebar menu */
-.sidenav {
-height: 100%;
-width: 160px; 
-position: fixed; 
-z-index: 1; 
-top: 0; 
-left: 0;
-background-color: rgba(255, 255, 255, 0.075);
-overflow-x: hidden; 
-padding-top: 20px;
-border-radius: 10px;
-}
 
-/* The navigation menu links */
-.sidenav a {
-padding: 6px 8px 6px 16px;
-text-decoration: none;
-font-size: 25px;
-color: #5a82cc;
-display: block;
-font-family: 'poppins', sans-serif;
-font-weight: 600;
-}
-
-.sidenav a:hover {
-color: rgb(52, 172, 116)
-}
 ::-webkit-scrollbar{
   background: transparent;
 }
