@@ -43,7 +43,7 @@ function horror_page(){
   window.location.href="horror.html";
 }
 function anemy_page(){
-  window.location.href="anemy.html";
+  window.location.href="anime.html";
 }
 function avengers_page(){
   window.location.href="Avengers.html";
