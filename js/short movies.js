@@ -3,5 +3,5 @@ function myFunction() {
 }
 
 function funclick(){
-  document.getElementById('ph2');
+  document.getElementById('../media7/short movies/ph2');
 }
