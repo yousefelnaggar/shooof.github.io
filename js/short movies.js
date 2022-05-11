@@ -3,5 +3,5 @@ function myFunction() {
 }
 
 function funclick(){
-  document.getElementById('ph2.jpg');
+  document.getElementById('ph2');
 }
